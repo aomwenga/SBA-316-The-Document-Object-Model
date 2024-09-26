@@ -1,0 +1,66 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #552583; /* Lakers Purple */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border-left: 8px solid #fdb927; /* Lakers Gold Accent */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li strong {
+  color: #552583; /* Lakers Purple */
+}
+
+ul li:hover {
+  background-color: #fdf3cc; /* Light Gold for hover effect */
+  transition: background-color 0.3s ease;
+}
+
+ul li::before {
+  content: "🏀";
+  margin-right: 10px;
+  color: #fdb927; /* Lakers Gold */
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 20px;
+    padding: 15px;
+  }
+}
