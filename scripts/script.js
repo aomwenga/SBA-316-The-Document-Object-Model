@@ -36,6 +36,30 @@ changeButton.addEventListener("click", () => {
   // change what button says
   changeButton.textContent = "Kobe BEAN Bryant Is the only viable choice!";
   //   console.log("Fact updated: " + beyondBasketball.textContent);
+
+  //   Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
   changeButton.style.backgroundColor = "black";
   changeButton.style.color = "purple";
+
+  //   Modify at least one attribute of an element in response to user interaction.
+  changeButton.setAttribute("title", "Kobe is the GOAT!");
 });
+
+// Include at least one form and/or input with HTML attribute validation.
+// form element
+let form = document.getElementById("player-form");
+
+// event listener for form submission
+form.addEventListener("submit", (event) => {
+  event.preventDefault(); // stop the default form submission
+
+  // value from the input field
+  let favoritePlayer = document.getElementById("favorite-player").value;
+  console.log(favoritePlayer);
+
+  // Optionally, clear the input field
+  form.reset();
+});
+
+// this one confused me
+// Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)
