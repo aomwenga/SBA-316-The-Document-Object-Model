@@ -21,3 +21,8 @@ To run this project, you need:
    ```bash
    git clone https://github.com/yourusername/mamba-facts.git
    ```
+
+## References
+
+- The HTML and CSS components of this project were developed with the assistance of AI technology.
+- The JavaScript code was supported by resources from W3Schools and Google.
