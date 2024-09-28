@@ -36,4 +36,6 @@ changeButton.addEventListener("click", () => {
   // change what button says
   changeButton.textContent = "Kobe BEAN Bryant Is the only viable choice!";
   //   console.log("Fact updated: " + beyondBasketball.textContent);
+  changeButton.style.backgroundColor = "black";
+  changeButton.style.color = "purple";
 });
