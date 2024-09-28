@@ -29,3 +29,11 @@ let clone = document.querySelector(`li`);
 let clonedLi = clone.cloneNode(true);
 
 // Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
+let changeButton = document.getElementById("goat-fact");
+
+// event listener to the button
+changeButton.addEventListener("click", () => {
+  // change what button says
+  changeButton.textContent = "Kobe BEAN Bryant Is the only viable choice!";
+  //   console.log("Fact updated: " + beyondBasketball.textContent);
+});
